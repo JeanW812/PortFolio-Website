@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Wong Ya Jing - CS student">
+  <title>Wong Ya Jing | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!--NAVIGATION BAR-->
+  <nav>
+    <div class="nav-name"></div>
+
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <!--HOME SECTION-->
+  <section id="home">
+    <h1>Hi, I'm Wong Ya Jing aka Jean 👋</h1>
+    <img id="profile-pic" src="profile picture.jpg" alt="My pfp">
+    <p class="tagline">Computer Science Student in UTM</p>
+    <p>I am currently a Year 2 student in Computer Science.</p>
+
+    <div class="button-row">
+      <a href="#projects" class="btn btn-dark">See My Projects</a>
+      <a href="#contact" class="btn btn-outline">Contact Me</a>
+    </div>
+
+  </section>
+
+
+  <!--ABOUT ME-->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>My name is Wong Ya Jing.<br>
+      My hometown is Seremban, Negeri Sembilan.<br>
+      I'm currently in UTM Skudai, Johor to pursue my career.
+    </p>
+    
+    <p>Besides of my main quest which is study.</p>
+    <p><b>Dance</b> is my love!!!</p>
+    <video id="myVideo" width="50%" height="auto">
+      <source src="dance video.MOV" type="video/mp4">
+    </video>
+    <button id="playButton" onclick="playPause()">Play</button>
+    <p>I am also a gaming person. I enjoyed playing games xD</p>
+    <video id="myVideo" width="100%" height="auto" autoplay muted loop>
+      <source src="game video.mp4" type="video/mp4">
+    </video>
+  
+
+    <!-- Skills list -->
+    <h3>My Skills</h3>
+    <div class="skills-list">
+      <span class="skill">HTML</span>
+      <span class="skill">CSS</span>
+      <span class="skill">JavaScript</span>
+      <span class="skill">Java</span>
+      <span class="skill">C++</span>
+      <span class="skill">Cisco Packet Tracer</span>
+      <span class="skill">AutoCAD</span>
+      <span class="skill">Figma</span>
+    </div>
+  </section>
+
+
+  <!--PROJECTS SECTION-->
+  <section id="projects">
+    <h2>My Projects</h2>
+
+    <!-- Project 1 -->
+    <div class="project-card">
+      <h3>ParkMate. Your Parking Assistant</h3>
+      <div class="project-tags">
+        <span class="tag">Human Computer Interaction</span>
+      </div>
+      <p>An application to aid drivers for parking.</p>
+      <div class="project-links">
+        <a href="https://github.com/JeanW812/ParkMate.-Your-parking-assistant.git" >GitHub</a>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <h3>Event Registration Management System</h3>
+      <div class="project-tags">
+        <span class="tag">Data Structure and Algorithm</span>
+      </div>
+      <p>A Data Structure and Algorithm project to ease management of registration system</p>
+      <div class="project-links">
+        <a href="https://github.com/JeanW812/Event-Registration-Management-System">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!--CONTACT SECTION-->
+  <section id="contact">
+    <h2>Get in Touch</h2>
+    <p>My Contacts</p>
+    <div class="social-links">
+      <a href="https://github.com/JeanW812"><img src = 'github.png' height="20px" width="20px">GitHub</a>
+      <a href="https://my.linkedin.com/in/ya-jing-wong-567123346"><img src="linkedIn logo.jfif" height="20px" width="20px">LinkedIn</a>
+      <a href="https://www.instagram.com/he.yj.ean/"><img src="instagram logo.jfif" height="20px" width="20px">Instagram</a>
+      <a href="mailto:wongyajing0812@gmail.com"><img src="email.jfif" height="20px" width="20px">Email</a>
+    </div>
+  </section>
+
+
+  <footer>
+    <p>Built by Wong Ya Jing - Computer Science Student</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
